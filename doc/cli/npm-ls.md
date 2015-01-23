@@ -3,10 +3,10 @@ npm-ls(1) -- List installed packages
 
 ## SYNOPSIS
 
-    npm list [<pkg> ...]
-    npm ls [<pkg> ...]
-    npm la [<pkg> ...]
-    npm ll [<pkg> ...]
+    npm list [[@<scope>/]<pkg> ...]
+    npm ls [[@<scope>/]<pkg> ...]
+    npm la [[@<scope>/]<pkg> ...]
+    npm ll [[@<scope>/]<pkg> ...]
 
 ## DESCRIPTION
 
@@ -60,6 +60,12 @@ Show parseable output instead of tree view.
 
 List packages in the global install prefix instead of in the current
 project.
+
+### depth
+
+* Type: Int
+
+Max display depth of the dependency tree.
 
 ## SEE ALSO
 
